@@ -1,5 +1,6 @@
 public class ShortestWay {
     public static int calc(int _x, int _y) {
+        System.out.println("Kalkuliere kürzesterWeg( " + _x + " , " + _y + ")");
         if(_x == 1 && _y == 1) {
             return 2;
         } else if(_x == 1) {
