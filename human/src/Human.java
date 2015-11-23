@@ -26,7 +26,10 @@ public class Human {
     }
 
     Human(String name, char gender, int height, int weight) {
-
+        this.setName(name);
+        this.setGender(gender);
+        this.setHeight(height);
+        this.setWeight(weight);
     }
 
     public String getName() {
