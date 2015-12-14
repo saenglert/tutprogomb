@@ -56,7 +56,9 @@ public class Daytime {
     }
 
     public void vorstellen(int stunden, int minuten, int sekunden) {
-
+        System.out.println("Vorstellen start");
+        // Doing stuff
+        System.out.println("Vorstellen ende");
     }
 
     public boolean istFrueherAls(Daytime daytime) {
